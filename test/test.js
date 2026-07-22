@@ -129,7 +129,7 @@ async function runTests() {
   // ── Test 4: Verifica canonical URL ──
   console.log('\n🔗 Test 4: URL canonici\n');
 
-  const canonicalUrl = 'https://cristianporco.it/app/convertitore-di-file-csv-a-array-json-per-javascript/';
+  const canonicalUrl = 'https://github.com/bonciarello/convertitore-di-file-csv-a-array-json-per-javascript/';
   assert(html.includes(canonicalUrl), 'Canonical URL presente nel HTML');
   assert(sitemapBody.includes(canonicalUrl), 'Canonical URL in sitemap.xml');
 
